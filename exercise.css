@@ -1,0 +1,29 @@
+.atomic{
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid #ddd;
+    padding:20px 0;
+    flex-direction: column;
+}
+.book-info{
+    display:flex;
+    flex-direction:column;
+}
+.book-name{
+    font-size:15px;
+    font-weight:bold;
+}
+.book-image{
+    width:80px;
+    height:100px;
+    margin-right:20px;
+    border-radius:5px;
+    object-fit:cover;
+}
+.book-list{
+    max-width:600px;
+    margin:0 auto;
+    padding:10px;
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}

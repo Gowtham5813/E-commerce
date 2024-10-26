@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Books Collection</h1>
+
+        
+        <input type="text" id="searchBar" class="search-bar" placeholder="Search for a Book" />
+        <div class="filter">
+            <label for="priceFilter" >Filter by Price:</label>
+            <select id="priceFilter">
+                <option value="all">All</option>
+                <option value="under-30">Under $30</option>
+                <option value="30-40">$30 - $40</option>
+                <option value="above-40">Above $40</option>
+            </select>
+            <label for="sortOrder">Sort by Price:</label>
+    <select id="sortOrder">
+        <option value="default">Default</option>
+        <option value="low-to-high">Low to High</option>
+        <option value="high-to-low">High to Low</option>
+    </select>
+        </div>
+        <div id="bookList" class="book-list"></div>
+        
+    </div>
+    <script src="books.js"></script>
+</body>
+</html>
